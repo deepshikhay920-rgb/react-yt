@@ -1,10 +1,21 @@
-import React from "react";
-function App(){
-  return (
-    <div >
-    
+import "./App.css";
+import Card from "./Components/Card";
+import Navbar from "./Navbar";
 
-    </div>
+function App() {
+  return (
+    <>
+      <Navbar/>
+
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+
+
+    </>
   );
 }
-export default App
+
+export default App;
